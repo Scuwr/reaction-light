@@ -1,5 +1,5 @@
 # Reaction Light - Discord Role Bot
-[![Reaction Light 2.1.2](https://img.shields.io/badge/Reaction%20Light-2.1.2-yellow.svg)](https://github.com/eibex/reaction-light/blob/master/CHANGELOG.md)
+[![Reaction Light 2.1.2](https://img.shields.io/badge/Reaction%20Light-2.1.2-yellow.svg)](https://github.com/Scuwr/reaction-light/blob/master/CHANGELOG.md)
 [![Python 3.5.3+](https://img.shields.io/badge/python-3.5.3+-blue.svg)](#)
 [![discord.py 1.5.0+](https://img.shields.io/badge/discord.py-1.5.0+-blue.svg)](#)
 
@@ -42,7 +42,7 @@ python3 -m pip install -U discord.py
 ```
 
 ## Setup
-- Clone the repository using `git clone https://github.com/eibex/reaction-light.git` (or download it as a `*.zip` file and extract it - it is recommended to use git instead of the zip archive)
+- Clone the repository using `git clone https://github.com/Scuwr/reaction-light.git` (or download it as a `*.zip` file and extract it - it is recommended to use git instead of the zip archive)
   - `git` comes pre-installed on most Linux-based operating systems. On Windows, if you are not familiar with git, you can use [GitHub Desktop](https://desktop.github.com/)
 - Run `setup.py` and follow the instructions or create a `config.ini` file (example provided in `config.ini.sample`) and edit it manually:
   - Insert the token of your bot (found at: https://discord.com/developers/applications/)
@@ -128,7 +128,7 @@ User: none // Select your roles // Click on the buttons below to give yourself s
 Finally, the bot will send the message to the channel specified in the first step, and it will react with each reactions specified so that the buttons are ready to be used. The bot will remove any new reactions to the message to avoid clutter. For example, if you added an `:eggplant:` reaction to the message created in this example, the bot will remove it as it is not attached to any role.
 
 ## Updating
-You can view new features in the [changelog](https://github.com/eibex/reaction-light/blob/master/CHANGELOG.md).
+You can view new features in the [changelog](https://github.com/Scuwr/reaction-light/blob/master/CHANGELOG.md).
 
 If you set a system channel in `config.ini`, your bot will check for new versions from this repository. If updates are available a message is sent briefly outlining the update process. This process varies depending on how you installed the bot.
 
@@ -152,7 +152,7 @@ If you downloaded the bot as a zip archive:
 - Start the bot again
 
 ## Roadmap
-Upcoming features can be found in the open issues and PRs tagged with **new feature**. They can be found [here](https://github.com/eibex/reaction-light/issues?q=is%3Aopen+label%3A%22new+feature%22).
+Upcoming features can be found in the open issues and PRs tagged with **new feature**. They can be found [here](https://github.com/Scuwr/reaction-light/issues?q=is%3Aopen+label%3A%22new+feature%22).
 
 Open a new issue if you would like to see a feature implemented, and/or open a pull request implementing it.
 
@@ -166,10 +166,10 @@ Ensure that you moved the `Reaction Light` role to a position that is hierarchic
 Run `rl!admin @Role` to give all users with that role permission to manage Reaction Light. This is done to have server staff use the bot without giving them unnecessary server rights. The only server admin (not bot admin) commands are `rl!admin` and `rl!rm-admin`.
 
 ## Help
-If you need help with the bot or need to report bugs, post an issue [here](https://github.com/eibex/reaction-light/issues).
+If you need help with the bot or need to report bugs, post an issue [here](https://github.com/Scuwr/reaction-light/issues).
 
 ## Contribute
 If you would like to contribute to this project, fork it and then create a pull request. Please ensure that you have thoroughly tested all your changes. Black formatting is preferred. 
 
 ## License
-[MIT](https://github.com/eibex/reaction-light/blob/master/LICENSE)
+[MIT](https://github.com/Scuwr/reaction-light/blob/master/LICENSE)

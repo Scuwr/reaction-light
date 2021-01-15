@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) 2019-2021 eibex
+Copyright (c) 2019-2021 Scuwr
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -29,7 +29,7 @@ from urllib.request import urlopen
 def get_latest():
     # Get latest version string from GitHub
     data = urlopen(
-        "https://raw.githubusercontent.com/eibex/reaction-light/master/.version"
+        "https://raw.githubusercontent.com/Scuwr/reaction-light/master/.version"
     )
     for line in data:
         latest = line.decode()

@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) 2019-2021 eibex
+Copyright (c) 2019-2021 Scuwr
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -227,9 +227,9 @@ async def updates():
         await system_notification(
             None,
             f"An update is available. Download Reaction Light v{new_version} at"
-            f" https://github.com/eibex/reaction-light or simply use `{prefix}update`"
+            f" https://github.com/Scuwr/reaction-light or simply use `{prefix}update`"
             " (only works with git installations).\n\nYou can view what has changed"
-            " here: <https://github.com/eibex/reaction-light/blob/master/CHANGELOG.md>",
+            " here: <https://github.com/Scuwr/reaction-light/blob/master/CHANGELOG.md>",
         )
 
 
@@ -1152,7 +1152,7 @@ async def hlp(ctx):
             " available one from GitHub.\n\n"
             f"{botname} is running version {__version__} of Reaction Light. You can"
             " find more resources, submit feedback, and report bugs at: "
-            "<https://github.com/eibex/reaction-light>"
+            "<https://github.com/Scuwr/reaction-light>"
         )
 
     else:
