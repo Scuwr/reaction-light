@@ -7,6 +7,9 @@ __pycache__/
 # Visual Studio Code
 .vscode/
 
+# PyCharm Code
+.idea/
+
 # Configuration files, database and CSVs
 *.ini
 *.csv
